@@ -22,7 +22,7 @@ while True:
 
         name = "Desconhecido"
         if matches[0]:
-            name = "Pessoa Conhecida"
+            name = "Daniel Felipe"
 
         # Desenhando o retângulo e o nome na imagem
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 2)
